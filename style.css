@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+body {
+  font-family: 'Righteous', cursive;
+  min-height: 854px;
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+.git-logo {
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: all 0.2s;
+  opacity: 0.8;
+  filter: grayscale(50%);
+}
+.alura_logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.page-logoa {
+  width: 200px;
+  animation: rgb linear 3s infinite;
+  transition: all 0.2s ease-out;
+}
+.page-logoa:hover {
+  width: 210px;
+}
+
+@keyframes rgb {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  font-family: 'Righteous', cursive;
+  padding: 10px;
+  width: 100px;
+  background-color: #050505;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;;
+}
+#btnSortear:hover {
+  background: linear-gradient(to bottom, #bd2aac 5%, #c045c7 100%);
+  background-color: #bd2aac;
+}
+
+#btnSortear:active {
+  position: relative;
+  top: 1px;
+}
+
+h2 {
+  color: #000000;
+}
+
+h3 {
+  color: #000000;
+}
+
+
+
+.opcoes {
+  color: black;
+  font-size: 20px;
+}
+#btnSortear{
+  color:white
+}
+
+#resultado {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.blur {
+  filter: blur(5px);
+  height: 100%;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background-image: URL("https://i.ytimg.com/vi/a-pwMevSLhI/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+button.button-jogar {
+  font-family: 'Righteous', cursive;
+  padding: 10px;
+  width: 100px;
+  background-color: #050505;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+#btnJogar:hover {
+  background: linear-gradient(to bottom, #bd2aac 5%, #c045c7 100%);
+  background-color: #bd2aac;
+}
+
+#btnJogar:active {
+  position: relative;
+  top: 1px;
+}
+#btnJogar{
+  color:white
+}
